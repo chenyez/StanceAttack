@@ -753,9 +753,6 @@ else:
 ##########################################################################################
 def ask_chatgpt(text, target, stance, text_last,df_examples,args,analysis):
     def ChatEngine(prompt,instruction):
-        # openai.api_key="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" #zcy8863
-         #czhao43
-        # openai.api_key="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" #isziwei
         response=client.chat.completions.create(model="gpt-3.5-turbo-0125",
         # model="gpt-4-0125-preview",
         messages=[
